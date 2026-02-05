@@ -6,6 +6,9 @@
 html {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+body {
+  background-color: #fefae0;
+}
 h1 {
   text-align: end;
   padding: 0.5rem 2rem;
@@ -42,4 +45,29 @@ img {
   width: 100%;
   height: 400px;
   object-fit: cover;
+}
+h2 {
+  padding: 1.5rem;
+  color: #283618;
+}
+p {
+  padding: 0.1rem 2rem;
+  line-height: 1.75rem;
+  font-size: 1.05rem;
+}
+.steps {
+  display: block;
+  font-weight: 300;
+}
+.steps li {
+  display: list-item;
+  list-style-position: inside;
+  text-indent: 2.5rem;
+  list-style-type: decimal;
+  padding: 0.1rem 2rem;
+  font-weight: bolder;
+}
+.steps li::marker {
+  font-weight: bold;
+  font-style: italic;
 }
