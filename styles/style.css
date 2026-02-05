@@ -27,3 +27,19 @@ li {
 li a:any-link {
   color: #283618;
 }
+
+#homepage {
+  display: block;
+  background-color: #283618;
+  text-align: center;
+}
+#homepage:any-link {
+  color: #fefae0;
+  font-size: 0.75rem;
+  padding: 0.75rem;
+}
+img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
